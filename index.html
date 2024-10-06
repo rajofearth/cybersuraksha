@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSuraksha: Defending the Digital Frontier</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body class="bg-black text-white">
+    <div id="particles-js"></div>
+    <header class="fixed w-full z-50 bg-black bg-opacity-80 backdrop-blur-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold neon-text">CyberSuraksha</a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#types" class="nav-link">Attack Types</a>
+                <a href="#case-studies" class="nav-link">Case Studies</a>
+                <a href="#protection" class="nav-link">Protection</a>
+                <a href="#tools" class="nav-link">Tools</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#newsletter" class="nav-link">Stay Informed</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden">
+                <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+                <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <nav class="flex flex-col space-y-4 p-6">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#types" class="nav-link">Attack Types</a>
+                <a href="#case-studies" class="nav-link">Case Studies</a>
+                <a href="#protection" class="nav-link">Protection</a>
+                <a href="#tools" class="nav-link">Tools</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#newsletter" class="nav-link">Stay Informed</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+      <section id="home" class="h-screen flex items-center justify-center text-center">
+          <div class="max-w-md mx-auto">
+              <h1 class="text-4xl md:text-6xl font-bold mb-4 glitch text-center" data-text="CyberSuraksha">CyberSuraksha</h1>
+              <p class="text-lg md:text-xl mb-8">Defending Against Social Engineering Attacks</p>
+              <button class="cyber-button text-lg">Learn More</button>
+          </div>
+      </section>
+  
+      <div class="section-divider"></div>
+  
+      <section id="about" class="section py-20 md:py-40">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-8 neon-text">About Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div>
+                    <p class="mb-4">CyberSuraksha is dedicated to raising awareness about cybersecurity and social engineering attacks.</p>
+                    <p>Our mission is to empower individuals and organizations with the knowledge and tools to protect themselves in the digital world.</p>
+                </div>
+                <div class="neon-border p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">Why It Matters</h3>
+                    <p>In today's interconnected world, cybersecurity awareness is crucial for protecting personal information, financial assets, and organizational data from sophisticated social engineering attacks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+      <div class="section-divider"></div>
+  
+      <section id="types" class="py-20">
+          <div class="container mx-auto px-6">
+              <h2 class="text-4xl font-bold mb-8 neon-text">Types of Social Engineering Attacks</h2>
+              <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+                  <div class="service-card neon-border p-6 rounded-lg">
+                      <h3 class="text-2xl font-bold mb-4">Phishing</h3>
+                      <p>Deceptive attempts to obtain sensitive information through fraudulent emails or websites.</p>
+                  </div>
+                  <div class="service-card neon-border p-6 rounded-lg">
+                      <h3 class="text-2xl font-bold mb-4">Baiting</h3>
+                      <p>Luring victims with the promise of goods, services, or information to steal data or infect systems.</p>
+                  </div>
+                  <div class="service-card neon-border p-6 rounded-lg">
+                      <h3 class="text-2xl font-bold mb-4">Pretexting</h3>
+                      <p>Creating a fabricated scenario to manipulate victims into divulging sensitive information.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+      <div class="section-divider"></div>
+
+<section id="case-studies" class="py-20">
+    <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-8 neon-text">Real-World Case Studies</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="case-study-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">The Twitter Hack of 2020</h3>
+                <p>High-profile Twitter accounts were compromised through a phone spear-phishing attack, leading to a Bitcoin scam.</p>
+            </div>
+            <div class="case-study-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">The Sony Pictures Hack</h3>
+                <p>Attackers used spear-phishing emails to gain access to Sony's network, resulting in leaked confidential data and financial losses.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section id="protection" class="py-20">
+    <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-8 neon-text">How to Protect Yourself</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="protection-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Be Skeptical</h3>
+                <p>Question unexpected emails, calls, or messages, especially those asking for sensitive information.</p>
+            </div>
+            <div class="protection-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Use Strong Passwords</h3>
+                <p>Create unique, complex passwords for each account and consider using a password manager.</p>
+            </div>
+            <div class="protection-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Enable 2FA</h3>
+                <p>Activate two-factor authentication on all your accounts that support it.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section id="tools" class="py-20">
+    <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-8 neon-text">Tools and Resources</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="tool-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Password Managers</h3>
+                <ul class="list-disc list-inside">
+                    <li>LastPass</li>
+                    <li>1Password</li>
+                    <li>Bitwarden</li>
+                </ul>
+            </div>
+            <div class="tool-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">2FA Apps</h3>
+                <ul class="list-disc list-inside">
+                    <li>Google Authenticator</li>
+                    <li>Authy</li>
+                    <li>Microsoft Authenticator</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section id="blog" class="py-20">
+    <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-8 neon-text">CyberSuraksha Blog</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="blog-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Latest Phishing Techniques</h3>
+                <p>Stay informed about the most recent phishing tactics used by cybercriminals.</p>
+                <a href="#" class="cyber-button mt-4 inline-block">Read More</a>
+            </div>
+            <div class="blog-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Social Engineering in the Age of AI</h3>
+                <p>Explore how artificial intelligence is changing the landscape of social engineering attacks.</p>
+                <a href="#" class="cyber-button mt-4 inline-block">Read More</a>
+            </div>
+            <div class="blog-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Cybersecurity for Small Businesses</h3>
+                <p>Learn how small businesses can protect themselves from social engineering threats.</p>
+                <a href="#" class="cyber-button mt-4 inline-block">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section id="faq" class="py-20">
+    <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-8 neon-text">Frequently Asked Questions</h2>
+        <div class="space-y-6">
+            <div class="faq-item neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-2">What is social engineering?</h3>
+                <p>Social engineering is the art of manipulating people into giving up confidential information or performing actions that may compromise their security.</p>
+            </div>
+            <div class="faq-item neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-2">How can I recognize a phishing email?</h3>
+                <p>Look for suspicious sender addresses, urgent language, unexpected attachments, and requests for sensitive information. Always verify the source before taking any action.</p>
+            </div>
+            <div class="faq-item neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-2">What should I do if I suspect I've been a victim of a social engineering attack?</h3>
+                <p>Immediately change your passwords, contact your IT department or service provider, and monitor your accounts for any suspicious activity.</p>
+            </div>
+        </div>
+    </div>
+</section>  
+      <div class="section-divider"></div>
+  
+      <section id="newsletter" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-8 neon-text">Stay Informed</h2>
+            <div class="max-w-lg mx-auto text-center">
+                <p class="mb-8">Sign up for our newsletter to receive early alerts about new cyber threats and ways to protect yourself.</p>
+                <form class="space-y-4">
+                    <input type="text" placeholder="Name" class="w-full bg-gray-800 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <input type="email" placeholder="Email" class="w-full bg-gray-800 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <button type="submit" class="cyber-button w-full">Subscribe</button>
+                </form>
+                <div class="mt-8 flex justify-center space-x-4">
+                    <a href="#" class="text-3xl"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-3xl"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-3xl"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="py-6">
+    <div class="container mx-auto px-6 text-center">
+        <p>&copy; 2024 CyberSuraksha. All rights reserved.</p>
+        <p class="mt-2">Created by <a href="https://rajofearth.github.io" target="_blank" rel="noopener noreferrer" class="underline hover:text-blue-400">Yashraj Maher</a></p>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
