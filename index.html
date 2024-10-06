@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 </head>
 <body class="bg-black text-white">
@@ -17,10 +18,9 @@
             <nav class="hidden md:flex space-x-6">
                 <a href="#home" class="nav-link">Home</a>
                 <a href="#about" class="nav-link">About Us</a>
-                <a href="#types" class="nav-link">Attack Types</a>
                 <a href="#case-studies" class="nav-link">Case Studies</a>
                 <a href="#protection" class="nav-link">Protection</a>
-                <a href="#tools" class="nav-link">Tools</a>
+                <a href="#attack-types" class="nav-link">Attack Types</a>
                 <a href="#blog" class="nav-link">Blog</a>
                 <a href="#newsletter" class="nav-link">Stay Informed</a>
                 <a href="#faq" class="nav-link">FAQ</a>
@@ -78,25 +78,43 @@
   
       <div class="section-divider"></div>
   
-      <section id="types" class="py-20">
-          <div class="container mx-auto px-6">
-              <h2 class="text-4xl font-bold mb-8 neon-text">Types of Social Engineering Attacks</h2>
-              <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-                  <div class="service-card neon-border p-6 rounded-lg">
-                      <h3 class="text-2xl font-bold mb-4">Phishing</h3>
-                      <p>Deceptive attempts to obtain sensitive information through fraudulent emails or websites.</p>
-                  </div>
-                  <div class="service-card neon-border p-6 rounded-lg">
-                      <h3 class="text-2xl font-bold mb-4">Baiting</h3>
-                      <p>Luring victims with the promise of goods, services, or information to steal data or infect systems.</p>
-                  </div>
-                  <div class="service-card neon-border p-6 rounded-lg">
-                      <h3 class="text-2xl font-bold mb-4">Pretexting</h3>
-                      <p>Creating a fabricated scenario to manipulate victims into divulging sensitive information.</p>
-                  </div>
-              </div>
-          </div>
-      </section>
+      <section id="attack-types" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-8 neon-text">Advanced Attack Types</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="attack-type-card neon-border p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4 glitch-text" data-text="Spear Phishing">Spear Phishing <i class="fas fa-fish text-neon-blue"></i></h3>
+                    <p>A targeted version of phishing, using personalized information to make the attack more credible.</p>
+                    <p class="mt-2 italic">Example: An employee receives a seemingly legitimate email from a coworker asking for sensitive information.</p>
+                </div>
+                <div class="attack-type-card neon-border p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4 glitch-text" data-text="Tailgating">Tailgating <i class="fas fa-user-secret text-neon-blue"></i></h3>
+                    <p>An unauthorized person follows an authorized person into a restricted area, exploiting trust or inattention.</p>
+                    <p class="mt-2 italic">Example: An attacker enters a secured area by closely following an employee with key card access.</p>
+                </div>
+                <div class="attack-type-card neon-border p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4 glitch-text" data-text="Vishing">Vishing <i class="fas fa-phone-alt text-neon-blue"></i></h3>
+                    <p>Voice phishing uses phone calls to trick victims into providing sensitive information.</p>
+                    <p class="mt-2 italic">Example: An attacker calls, pretending to be from the victim's bank, asking to verify account details.</p>
+                </div>
+                <div class="attack-type-card neon-border p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4 glitch-text" data-text="Malware">Malware <i class="fas fa-bug text-neon-blue"></i></h3>
+                    <p>Malicious software that can damage systems, steal data, or gain unauthorized access to networks.</p>
+                    <p class="mt-2 italic">Example: Ransomware encrypts files and demands payment for their release.</p>
+                </div>
+                <div class="attack-type-card neon-border p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4 glitch-text" data-text="SQL Injection">SQL Injection <i class="fas fa-database text-neon-blue"></i></h3>
+                    <p>Attacks web applications by inserting malicious SQL code into queries to access or manipulate databases.</p>
+                    <p class="mt-2 italic">Example: Attackers bypass authentication by entering SQL code in vulnerable login forms.</p>
+                </div>
+                <div class="attack-type-card neon-border p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4 glitch-text" data-text="Ransomware">Ransomware <i class="fas fa-lock text-neon-blue"></i></h3>
+                    <p>Encrypts a victim's data and demands a ransom payment for its release.</p>
+                    <p class="mt-2 italic">Example: The WannaCry ransomware affected over 200,000 computers in 2017.</p>
+                </div>
+            </div>
+        </div>
+    </section>
   
       <div class="section-divider"></div>
 
