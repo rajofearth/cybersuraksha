@@ -469,3 +469,43 @@ footer a:hover {
         clip: rect(12px, 9999px, 67px, 0);
     }
 }
+
+/* Add these styles at the end of your existing CSS file */
+
+#blogModal {
+    display: none;
+}
+
+#blogModal.flex {
+    display: flex;
+}
+
+.max-h-90vh {
+    max-height: 90vh;
+}
+
+.blog-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.blog-content p {
+    margin-bottom: 1rem;
+}
+
+.blog-content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.blog-content ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.blog-content li {
+    margin-bottom: 0.5rem;
+}

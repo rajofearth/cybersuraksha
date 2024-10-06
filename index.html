@@ -38,7 +38,7 @@
             <nav class="flex flex-col space-y-4 p-6">
                 <a href="#home" class="nav-link">Home</a>
                 <a href="#about" class="nav-link">About Us</a>
-                <a href="#types" class="nav-link">Attack Types</a>
+                <a href="#attack-types" class="nav-link">Attack Types</a>
                 <a href="#case-studies" class="nav-link">Case Studies</a>
                 <a href="#protection" class="nav-link">Protection</a>
                 <a href="#tools" class="nav-link">Tools</a>
@@ -54,7 +54,7 @@
           <div class="max-w-md mx-auto">
               <h1 class="text-4xl md:text-6xl font-bold mb-4 glitch text-center" data-text="CyberSuraksha">CyberSuraksha</h1>
               <p class="text-lg md:text-xl mb-8">Defending Against Social Engineering Attacks</p>
-              <button class="cyber-button text-lg">Learn More</button>
+              <a href="#about" class="cyber-button text-lg">Learn More</a>
           </div>
       </section>
   
@@ -191,17 +191,17 @@
             <div class="blog-card neon-border p-6 rounded-lg">
                 <h3 class="text-2xl font-bold mb-4">Latest Phishing Techniques</h3>
                 <p>Stay informed about the most recent phishing tactics used by cybercriminals.</p>
-                <a href="#" class="cyber-button mt-4 inline-block">Read More</a>
+                <button class="cyber-button mt-4 inline-block read-more-btn" data-blog-id="1">Read More</button>
             </div>
             <div class="blog-card neon-border p-6 rounded-lg">
                 <h3 class="text-2xl font-bold mb-4">Social Engineering in the Age of AI</h3>
                 <p>Explore how artificial intelligence is changing the landscape of social engineering attacks.</p>
-                <a href="#" class="cyber-button mt-4 inline-block">Read More</a>
+                <button class="cyber-button mt-4 inline-block read-more-btn" data-blog-id="2">Read More</button>
             </div>
             <div class="blog-card neon-border p-6 rounded-lg">
                 <h3 class="text-2xl font-bold mb-4">Cybersecurity for Small Businesses</h3>
                 <p>Learn how small businesses can protect themselves from social engineering threats.</p>
-                <a href="#" class="cyber-button mt-4 inline-block">Read More</a>
+                <button class="cyber-button mt-4 inline-block read-more-btn" data-blog-id="3">Read More</button>
             </div>
         </div>
     </div>
@@ -257,5 +257,14 @@
     </div>
 </footer>
     <script src="script.js"></script>
+
+    <!-- Add the blog post modal -->
+    <div id="blogModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+        <div class="modal-content bg-gray-900 p-8 rounded-lg max-w-2xl w-full max-h-90vh overflow-y-auto">
+            <h2 id="blogTitle" class="text-3xl font-bold mb-4 neon-text"></h2>
+            <div id="blogContent" class="text-white mb-6"></div>
+            <button id="closeBlogModal" class="cyber-button">Close</button>
+        </div>
+    </div>
 </body>
 </html>
