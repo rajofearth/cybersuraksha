@@ -18,9 +18,10 @@
             <nav class="hidden md:flex space-x-6">
                 <a href="#home" class="nav-link">Home</a>
                 <a href="#about" class="nav-link">About Us</a>
+                <a href="#attack-types" class="nav-link">Attack Types</a>
                 <a href="#case-studies" class="nav-link">Case Studies</a>
                 <a href="#protection" class="nav-link">Protection</a>
-                <a href="#attack-types" class="nav-link">Attack Types</a>
+                <a href="#Tools-And-Resources" class="nav-link">Tools And Resources</a>
                 <a href="#blog" class="nav-link">Blog</a>
                 <a href="#newsletter" class="nav-link">Stay Informed</a>
                 <a href="#faq" class="nav-link">FAQ</a>
@@ -65,13 +66,29 @@
             <h2 class="text-4xl font-bold mb-8 neon-text">About Us</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div>
-                    <p class="mb-4">CyberSuraksha is dedicated to raising awareness about cybersecurity and social engineering attacks.</p>
-                    <p>Our mission is to empower individuals and organizations with the knowledge and tools to protect themselves in the digital world.</p>
+                    <p class="mb-4">Welcome to CyberSuraksha, your go-to platform for raising awareness about the critical importance of cybersecurity and defending against the ever-growing threat of social engineering attacks. In today's digital age, cybercriminals increasingly target individuals through manipulation and deceit, exploiting human psychology rather than technical vulnerabilities.</p>
+                    <p>Our mission is to empower individuals and organizations with the knowledge and tools they need to stay secure online.</p>
                 </div>
                 <div class="neon-border p-6 rounded-lg">
-                    <h3 class="text-2xl font-bold mb-4">Why It Matters</h3>
-                    <p>In today's interconnected world, cybersecurity awareness is crucial for protecting personal information, financial assets, and organizational data from sophisticated social engineering attacks.</p>
+                    <h3 class="text-2xl font-bold mb-4">Our Mission:</h3>
+                    <p>At CyberSuraksha, we aim to create a safer digital world by:
+                        <br>
+                        <ul style="list-style-type:square">
+                            <li>Spreading Awareness: Educating people about the different forms of cyberattacks, particularly social engineering attacks, which rely on deception rather than direct hacking.</li>
+                            <br>
+                            <li>Providing Solutions: Offering practical tips and strategies for individuals and businesses to protect themselves from malicious actors.</li>
+                            <br>
+                            <li>Building a Community: Creating a space where cybersecurity enthusiasts and professionals can come together to share knowledge, insights, and the latest trends in cybersecurity.</li>
+                      </ul>
+                    </p>
                 </div>
+
+                <div class="neon-border p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">Why It Matters / Focus on Social Engineering</h3>
+                    <p>In today's interconnected world, cybersecurity awareness is crucial for protecting personal information, financial assets, and organizational data from sophisticated social engineering attacks.</p><br>
+                    <p>Social engineering is one of the most effective and damaging forms of cybercrime because it targets the weakest link in cybersecurity: humans. Phishing, vishing, baiting, and pretexting attacks trick people into revealing sensitive information, often leading to severe personal and organizational losses. Through awareness and education, we can drastically reduce the success rate of these attacks.</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -80,33 +97,57 @@
   
       <section id="attack-types" class="py-20">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold mb-8 neon-text">Advanced Attack Types</h2>
+            <h2 class="text-4xl font-bold mb-8 neon-text">Social Engineering Attack Types</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <div class="attack-type-card neon-border p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">Phishing</h3>
+                    <p>Phishing is a type of scam that uses fake emails, text messages, or websites to impersonate real organizations, aiming to deceive people into sharing sensitive information like passwords, credit card numbers, or account details.</p>
+                    <p class="mt-2 italic">Example: you might get an email that looks like it's from your bank, asking you to click a link to "verify" your account. However, that link takes you to a counterfeit website created to capture your login information.</p>
+                </div>
+
+                <div class="service-card neon-border p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">Baiting</h3>
+                    <p>In a baiting attack, attackers lure victims with the promise of something appealing, such as free software, discounts, or music downloads, to deceive users into sharing personal information or downloading harmful software.
+                        <p class="mt-2 italic">Example: A user discovers a USB drive marked "Confidential" in the parking lot and, driven by curiosity, plugs it into their computer, unknowingly installing malware.</p>
+                </div>
+
+                <div class="service-card neon-border p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">Pretexting</h3>
+                    <p>Pretexting is the act of crafting a false scenario to gather information or gain access. In this tactic, the attacker assumes a false identity, often posing as an authority figure or a trusted organization.<p class="mt-2 italic"></p> Example: an attacker might impersonate an IT support technician, requesting an employee's network login credentials by claiming they need them for maintenance or troubleshooting purposes.</p>
+                </div>   
+
+                
                 <div class="attack-type-card neon-border p-6 rounded-lg">
                     <h3 class="text-2xl font-bold mb-4 glitch-text" data-text="Spear Phishing">Spear Phishing <i class="fas fa-fish text-neon-blue"></i></h3>
                     <p>A targeted version of phishing, using personalized information to make the attack more credible.</p>
                     <p class="mt-2 italic">Example: An employee receives a seemingly legitimate email from a coworker asking for sensitive information.</p>
                 </div>
+
                 <div class="attack-type-card neon-border p-6 rounded-lg">
                     <h3 class="text-2xl font-bold mb-4 glitch-text" data-text="Tailgating">Tailgating <i class="fas fa-user-secret text-neon-blue"></i></h3>
                     <p>An unauthorized person follows an authorized person into a restricted area, exploiting trust or inattention.</p>
                     <p class="mt-2 italic">Example: An attacker enters a secured area by closely following an employee with key card access.</p>
                 </div>
+
                 <div class="attack-type-card neon-border p-6 rounded-lg">
                     <h3 class="text-2xl font-bold mb-4 glitch-text" data-text="Vishing">Vishing <i class="fas fa-phone-alt text-neon-blue"></i></h3>
                     <p>Voice phishing uses phone calls to trick victims into providing sensitive information.</p>
                     <p class="mt-2 italic">Example: An attacker calls, pretending to be from the victim's bank, asking to verify account details.</p>
                 </div>
+
                 <div class="attack-type-card neon-border p-6 rounded-lg">
                     <h3 class="text-2xl font-bold mb-4 glitch-text" data-text="Malware">Malware <i class="fas fa-bug text-neon-blue"></i></h3>
                     <p>Malicious software that can damage systems, steal data, or gain unauthorized access to networks.</p>
                     <p class="mt-2 italic">Example: Ransomware encrypts files and demands payment for their release.</p>
                 </div>
+
                 <div class="attack-type-card neon-border p-6 rounded-lg">
                     <h3 class="text-2xl font-bold mb-4 glitch-text" data-text="SQL Injection">SQL Injection <i class="fas fa-database text-neon-blue"></i></h3>
                     <p>Attacks web applications by inserting malicious SQL code into queries to access or manipulate databases.</p>
                     <p class="mt-2 italic">Example: Attackers bypass authentication by entering SQL code in vulnerable login forms.</p>
                 </div>
+
                 <div class="attack-type-card neon-border p-6 rounded-lg">
                     <h3 class="text-2xl font-bold mb-4 glitch-text" data-text="Ransomware">Ransomware <i class="fas fa-lock text-neon-blue"></i></h3>
                     <p>Encrypts a victim's data and demands a ransom payment for its release.</p>
@@ -123,12 +164,20 @@
         <h2 class="text-4xl font-bold mb-8 neon-text">Real-World Case Studies</h2>
         <div class="grid md:grid-cols-2 gap-8">
             <div class="case-study-card neon-border p-6 rounded-lg">
-                <h3 class="text-2xl font-bold mb-4">The Twitter Hack of 2020</h3>
-                <p>High-profile Twitter accounts were compromised through a phone spear-phishing attack, leading to a Bitcoin scam.</p>
+                <h3 class="text-2xl font-bold mb-4">The Twitter Bitcoin Scam (2020)</h3>
+                <p>In July 2020, Twitter faced a major cybersecurity breach where high-profile accounts, including those of Elon Musk, Bill Gates, and Barack Obama, were hacked. The attackers posted fraudulent tweets promoting a Bitcoin scam, promising to double any Bitcoin sent to a specific address.</p>
+                <p class="mt-2">The attackers gained access to Twitter's internal tools by tricking Twitter employees through social engineering techniques. They pretended to be company insiders and convinced employees to hand over their credentials, giving them administrative access to control high-profile accounts.</p>
+                <p class="mt-2">The scam resulted in over $120,000 in stolen Bitcoin. More importantly, it revealed significant vulnerabilities in Twitter's internal security protocols, especially regarding employee access to sensitive systems. The incident highlighted the importance of employee training and vigilance against social engineering attacks.</p>
             </div>
+
             <div class="case-study-card neon-border p-6 rounded-lg">
-                <h3 class="text-2xl font-bold mb-4">The Sony Pictures Hack</h3>
-                <p>Attackers used spear-phishing emails to gain access to Sony's network, resulting in leaked confidential data and financial losses.</p>
+                <h3 class="text-2xl font-bold mb-4">The Sony Pictures Hack (2014)</h3>
+                <p> In November 2014, Sony Pictures Entertainment suffered a massive cyberattack, which led to the leak of sensitive internal data, including unreleased films, employee personal information, confidential emails, and financial documents. The attack was carried out by a group calling themselves the “Guardians of Peace.”</p>
+
+                <p class="mt-2"> The attackers used spear-phishing emails to trick Sony employees into giving up their login credentials. Once inside the network, the attackers gained control of critical systems, allowing them to exfiltrate large amounts of sensitive data.</p>
+
+                <p class="mt-2">The breach caused significant financial and reputational damage to Sony Pictures. The attack exposed personal details of over 47,000 employees and caused a delay in the release of the film The Interview. It also led to heightened tensions between the U.S. and North Korea, as the attack was allegedly linked to the controversial nature of the film.</p>
+
             </div>
         </div>
     </div>
@@ -141,44 +190,123 @@
         <h2 class="text-4xl font-bold mb-8 neon-text">How to Protect Yourself</h2>
         <div class="grid md:grid-cols-3 gap-8">
             <div class="protection-card neon-border p-6 rounded-lg">
-                <h3 class="text-2xl font-bold mb-4">Be Skeptical</h3>
-                <p>Question unexpected emails, calls, or messages, especially those asking for sensitive information.</p>
+                <h3 class="text-2xl font-bold mb-4">Employee Training and Awareness</h3>
+                <ul style="list-style-type:square">
+                 <li>Educate employees and users about common social engineering tactics like phishing, pretexting, and baiting.</li>
+                 <br><li>Awareness is the first line of defense. Employees should be trained to recognize suspicious emails, phone calls, and other attempts to gather sensitive information.</li>
+                 <br><li>Conduct regular security awareness training, simulate phishing attacks to test   employees, and provide resources on identifying potential threats.</li>
+                </ul>
             </div>
+
             <div class="protection-card neon-border p-6 rounded-lg">
-                <h3 class="text-2xl font-bold mb-4">Use Strong Passwords</h3>
-                <p>Create unique, complex passwords for each account and consider using a password manager.</p>
+                <h3 class="text-2xl font-bold mb-4">Multi-Factor Authentication (MFA)</h3>
+                <ul style="list-style-type:square">
+                 <li>Use MFA to add an extra layer of security beyond just a password, requiring users to verify their identity with something they know (password) and something they have (a mobile phone or security token).</li>
+                 <br><li>Even if attackers steal a password through social engineering, they cannot access accounts without the second factor.</li>
+                 <br><li>Require MFA for accessing sensitive data and critical systems across the organization.</li>
+                </ul>
             </div>
+
             <div class="protection-card neon-border p-6 rounded-lg">
-                <h3 class="text-2xl font-bold mb-4">Enable 2FA</h3>
-                <p>Activate two-factor authentication on all your accounts that support it.</p>
+                <h3 class="text-2xl font-bold mb-4">Verify Requests for Sensitive Information</h3>
+                <ul style="list-style-type:square">
+                 <li>Implement policies that require verification before disclosing sensitive information, especially over the phone or email.</li>
+                 <br><li>Attackers often impersonate trusted individuals (e.g., IT support or senior management). Verification ensures that the request is legitimate.</li>
+                 <br><li>Use multi-step verification methods, such as calling back the requester using official contact details, or implementing internal tools to verify identities.</li>
+                </ul>
             </div>
+
+            <div class="protection-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Strong Password Policies</h3>
+                <ul style="list-style-type:square">
+                 <li>Enforce the use of complex passwords and encourage the use of password managers to create and store unique, strong passwords.</li>
+                 <br><li>Weak or reused passwords are easier for attackers to guess or obtain through social   engineering tactics like phishing.</li>
+                 <br><li>Require users to regularly update passwords, enforce password complexity rules, and encourage or mandate the use of password managers.</li>
+                </ul>
+            </div>
+
+            <div class="protection-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Implement Email and Web Filters</h3>
+                <ul style="list-style-type:square">
+                 <li>Use email filtering tools to block malicious emails and prevent phishing attacks before they reach users. Web filtering can block access to known malicious websites.</li>
+                 <br><li>Use email filtering tools to block malicious emails and prevent phishing attacks before they reach users. Web filtering can block access to known malicious websites.</li>
+                 <br><li>Set up filters to block suspicious attachments, links, and domains, and regularly update them to protect against new threats.</li>
+                </ul>
+            </div>
+
+            <div class="protection-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Regular Security Audits and Monitoring</h3>
+                <ul style="list-style-type:square">
+                 <li>Conduct routine audits of security policies and monitor network activity for signs of suspicious behavior.</li>
+                 <br><li>engineering attacks often involve initial reconnaissance. Monitoring for unusual access patterns or behavior can help detect an attack in its early stages.</li>
+                 <br><li>Use monitoring tools to track network and system activity, review access logs regularly, 
+                 and employ intrusion detection systems (IDS) to spot potential breaches.</li>
+                </ul>
+            </div>
+
         </div>
     </div>
 </section>
 
 <div class="section-divider"></div>
 
-<section id="tools" class="py-20">
+<section id="Tools-And-Resources" class="py-20">
     <div class="container mx-auto px-6">
         <h2 class="text-4xl font-bold mb-8 neon-text">Tools and Resources</h2>
         <div class="grid md:grid-cols-2 gap-8">
             <div class="tool-card neon-border p-6 rounded-lg">
-                <h3 class="text-2xl font-bold mb-4">Password Managers</h3>
+                <h3 class="text-2xl font-bold mb-4">Anti-Phishing Tools</h3>
                 <ul class="list-disc list-inside">
-                    <li>LastPass</li>
-                    <li>1Password</li>
-                    <li>Bitwarden</li>
-                </ul>
+                    <h4>PhishTank</h4><br>
+                    <p>PhishTank is a free community site where users submit, verify, and share phishing websites. It helps you identify phishing sites and report suspicious URLs.</p><br>
+                    <p>Link:<a href="https://www.cisa.gov" target="_blank">PhishTank</a></p>
+                    <br>
+                    <h4>Microsoft Defender SmartScreen</h4>
+                    <p>Built into Microsoft products, SmartScreen warns users when they try to visit malicious websites or download harmful files.</p><br>
+                    <p>Link:<a href="https://www.microsoft.com/en-in/windows/?r=1" target="_blank">Microsoft Defender SmartScreen</a></p>
+                 </ul>
             </div>
+
             <div class="tool-card neon-border p-6 rounded-lg">
-                <h3 class="text-2xl font-bold mb-4">2FA Apps</h3>
+                <h3 class="text-2xl font-bold mb-4">Password Management Tools</h3>
                 <ul class="list-disc list-inside">
-                    <li>Google Authenticator</li>
-                    <li>Authy</li>
-                    <li>Microsoft Authenticator</li>
-                </ul>
+                    <h4>LastPass</h4><br>
+                    <p>LastPass securely stores your passwords and automatically fills them in for you, ensuring you don't need to remember multiple complex passwords.</p><br>
+                    <p>Link:<a href="https://www.lastpass.com/" target="_blank">LastPass</a></p>
+                    <br>
+                    <h4>Bitwarden</h4><br>
+                    <p>Bitwarden is a free, open-source password manager that helps you store and manage your passwords securely.</p><br>
+                    <p>Link:<a href="https://bitwarden.com/" target="_blank">Bitwarden</a></p>
+             </ul>
             </div>
-        </div>
+
+            <div class="tool-card neon-border p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mb-4">Two-Factor Authentication (2FA) Tools</h3>
+                <ul class="list-disc list-inside">
+                    <h4>Google Authenticator</h4><br>
+                    <p>Google Authenticator adds a second layer of protection to your accounts by generating unique codes that are required alongside your password.</p><br>
+                    <p>Link:<a href="https://chromewebstore.google.com/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en" target="_blank">Google Authenticator</a></p>
+                    <br>
+          
+                    <h4>Authy</h4><br>
+                    <p>Authy is a 2FA app that supports multiple devices and backs up your tokens securely in the cloud.</p><br>
+                    <p>Link:<a href="https://authy.com/"target="_blank">Authy</a></p>
+                </ul>
+          </div>
+
+          <div class="tool-card neon-border p-6 rounded-lg">
+            <h3 class="text-2xl font-bold mb-4">Email Filtering and Monitoring Tools</h3>
+            <div class="list-disc list-inside">
+                <h4>SpamTitan</h4><br>
+                <p>SpamTitan is an advanced email security solution that filters out spam, phishing emails, and other malicious content before it reaches users.</p><br>
+                <p>Link:<a href="https://www.spamtitan.com/home-d/"target="_blank">SpamTitan</a></p>
+                <br>
+
+                <h4>Proofpoint Email Protection</h4><br>
+                <p>Proofpoint offers advanced email protection against phishing, malware, and business email compromise attacks.</p><br>
+                <p>Link:<a href="https://www.proofpoint.com/us"target="_blank">Proofpoint Email Protection</a></p>
+            </div>
+            
     </div>
 </section>
 
@@ -253,7 +381,6 @@
   <footer class="py-6">
     <div class="container mx-auto px-6 text-center">
         <p>&copy; 2024 CyberSuraksha. All rights reserved.</p>
-        <!-- <p class="mt-2">Created by <a href="https://rajofearth.github.io" target="_blank" rel="noopener noreferrer" class="underline hover:text-blue-400">Yashraj Maher</a></p> -->
     </div>
 </footer>
     <script src="script.js"></script>
